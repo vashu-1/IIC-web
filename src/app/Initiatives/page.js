@@ -7,7 +7,7 @@ import React from "react";
 // import "swiper/css/navigation";
 // import "swiper/css/autoplay";
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+// import { EffectCoverflow, Pagination, Navigation } from "swiper";
 
 const initiatives = () => {
   return (
