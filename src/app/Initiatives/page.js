@@ -1,10 +1,10 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/effect-coverflow";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 // import "swiper/css/autoplay";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
@@ -142,53 +142,53 @@ const initiatives = () => {
         <hr className="my-12" />
       </div>
       <div>
-        <h1>Glimpse</h1>
-        <Swiper
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          loop={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2.5,
-          }}
-          className="swiper_container"
-        >
-          <SwiperSlide>
-            <img src="./c1.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c2.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c3.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c4.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c5.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c6.png" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="./c7.png" alt="" />
-          </SwiperSlide>
+        // <h1>Glimpse</h1>
+        // <Swiper
+        //   effect={"coverflow"}
+        //   grabCursor={true}
+        //   centeredSlides={true}
+        //   loop={true}
+        //   slidesPerView={"auto"}
+        //   coverflowEffect={{
+        //     rotate: 0,
+        //     stretch: 0,
+        //     depth: 100,
+        //     modifier: 2.5,
+        //   }}
+        //   className="swiper_container"
+        // >
+        //   <SwiperSlide>
+        //     <img src="./c1.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c2.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c3.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c4.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c5.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c6.png" alt="" />
+        //   </SwiperSlide>
+        //   <SwiperSlide>
+        //     <img src="./c7.png" alt="" />
+        //   </SwiperSlide>
 
-          <div className="slider-controler">
-            <div className="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </div>
-            <div className="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </div>
-            <div className="swiper-pagination"></div>
-          </div>
-        </Swiper>
+        //   <div className="slider-controler">
+        //     <div className="swiper-button-prev slider-arrow">
+        //       <ion-icon name="arrow-back-outline"></ion-icon>
+        //     </div>
+        //     <div className="swiper-button-next slider-arrow">
+        //       <ion-icon name="arrow-forward-outline"></ion-icon>
+        //     </div>
+        //     <div className="swiper-pagination"></div>
+        //   </div>
+        // </Swiper>
       </div>
     </div>
   );
